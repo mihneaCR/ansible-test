@@ -1,0 +1,7 @@
+- name: Install packages
+  paru: name={{item}}
+  with_items:
+    - git
+    - neovim
+    - btop
+    - pyenv
